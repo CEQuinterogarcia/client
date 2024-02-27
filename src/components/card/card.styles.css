@@ -1,0 +1,33 @@
+.card-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 300px;
+background-color:rgba(0, 255, 255, 0.419);
+border: 1px solid rgb(255, 6, 6);
+border-radius: 10px;
+padding: 25px;
+cursor: pointer;
+-moz-osx-font-smoothing: grayscale;
+backface-visibility: hidden;
+transform: translatez(8);
+transition: transform 0.255 ease-out;
+
+
+
+}
+
+.card-container:hover {
+transform: scale(1.05);
+}
+
+.image
+{
+   width: 170px;
+   border-radius: 3px;
+   
+}
+.titcard{
+    font-size: 20px;
+    color: rgb(0, 246, 21);
+}
